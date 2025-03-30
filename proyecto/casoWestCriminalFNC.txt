@@ -5,5 +5,5 @@ Misil(M)
 -Misil(x) ∨ Arma(x)
 -Enemigo(x, America) ∨ Hostil(x)
 Americano(West)
-Enemigo(Nono, América)
+Enemigo(Nono, America)
 ¿Criminal(West)?
