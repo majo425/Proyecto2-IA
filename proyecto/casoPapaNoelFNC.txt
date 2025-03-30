@@ -1,0 +1,3 @@
+-Hombre(x) ∨ Mortal(x)
+Hombre(Papanoel)
+¿Mortal(Papanoel)?
