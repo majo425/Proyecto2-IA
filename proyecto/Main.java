@@ -5,7 +5,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         //Lectura del archivo con las sentencias
-        String nombreArchivo = "proyecto/casoWestCriminalFNC.txt";
+        String nombreArchivo = "proyecto/casoSinVariables.txt";
         LectorArchivo.DatosArchivo datos = LectorArchivo.leerArchivo(nombreArchivo);
 
         //Valida que halla una sentencia pregunta
