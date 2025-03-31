@@ -1,12 +1,15 @@
 package proyecto;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LectorArchivo {
     public static class DatosArchivo {
-        private List<String> axiomas;
-        private String pregunta;
+        private final List<String> axiomas;
+        private final String pregunta;
 
         public DatosArchivo(List<String> axiomas, String pregunta) {
             this.axiomas = axiomas;

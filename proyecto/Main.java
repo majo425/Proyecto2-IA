@@ -26,6 +26,6 @@ public class Main {
         System.out.println("\n ---------------- \n");
 
         //Imprime la solucion
-        System.out.println(ResolverConjuntiva.refutacion(axiomas, sentencia));
+        System.out.println(ResolverReglas.refutacion(axiomas, sentencia));
     }
 }
