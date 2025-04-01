@@ -21,9 +21,9 @@ public class ResolverReglas {
         //Se recorren todas las combinaciones posibles de dos reglas en la lista
         for (int i = 0; i < reglas.size(); i++) {
             for (int j = 0; j < reglas.size(); j++) {
-                //Se valida en resueltoCon que la regla no se haya resuelto con la actual, y se asegura que no se compare con si misma
+                //Se valida en derivadoDe que la regla no se haya resuelto con la actual, y se asegura que no se compare con si misma
                 if (!reglas.get(i).derivadoDe.contains(reglas.get(j)) && i != j) {
-                    //Se agregan las reglas a resueltoCon para que no se vuelvan a comparar en futuras iteraciones
+                    //Se agregan las reglas a derivadoDe para que no se vuelvan a comparar en futuras iteraciones
                     reglas.get(i).agregarDerivacion(reglas.get(j));
                     reglas.get(j).agregarDerivacion(reglas.get(i));
                     //Se devuelven las reglas que no han sido resueltas
@@ -187,4 +187,3 @@ public class ResolverReglas {
         return false;
     }
 }
-
